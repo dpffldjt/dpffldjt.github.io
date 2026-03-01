@@ -18,10 +18,14 @@
 ### Deliverables
 - Documents
     - README
+        - Revise after finishing site docs, can be completed on deadline day
     - Scope
+        - Revise from peer feedback, +2 from deadline
     - Plan
+        - +1 from deadline
     - Retrospective
-- Site docs
+        - deadline day
+- Site docs (+1 from deadline)
     - index.html
         - Decide on information needed on main page
         - Format information for page
@@ -30,6 +34,6 @@
         - Confirm definitions with dictionary
         - Identify relevant grammar
         - Source example sentences using grammar points
-    - style.css
+    - style.css (deadline day)
         - Decide on colour scheme
         - Find fonts that coordinate well between both English and Korean
