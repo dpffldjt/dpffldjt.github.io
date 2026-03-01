@@ -1,0 +1,172 @@
+:root {
+    /* Colour palette */
+    --primary-colour: #EFE6DDff;
+    --card-colour: #CFCFCEff;
+    --noun: #BA7184ff;
+    --verb: #DF8A73ff;
+    --grammar: #EAA548ff;
+    --adjective: #669CA5ff;
+    --adverb: #3688AAff;
+    --particle: #3D758Cff;
+    --font-colour: #525252;
+    --accent-font: #efe6dd;
+
+    /* Typography */
+    --font-size-xs: 12px;
+    --font-size-small: 16px;
+    --font-size-medium: 24px;
+    --font-size-h1: 32px;
+
+    /* Spacing */
+    --spacing-small: 8px;
+    --spacing-medium: 16px;
+    --spacing-large: 32px;
+    --spacing--xl: 48px;
+}
+
+* {
+    background-color: var(--primary-colour);
+    color: var(--font-colour);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: block;
+}
+
+body {
+    margin: var(--spacing-small);
+}
+
+h1 {
+    text-align: center;
+    color: var(--noun);
+    font-size: var(--font-size-h1)
+}
+
+h2 {
+    color: var(--accent-font);
+    background-color: var(--adjective);
+    padding: var(--spacing-small);
+    margin: var(--spacing-medium);
+    border-radius: 8px;
+}
+
+h3 {
+    margin: 0 var(--spacing-medium)
+}
+
+.song-nav {
+    text-align: left;
+    margin: 0;
+    background-color: var(--adverb);
+}
+
+.song-nav a {
+    color: var(--accent-font);
+}
+
+p {
+    background-color: var(--card-colour);
+    max-width: 80%;
+    padding: var(--spacing-small);
+    margin: 0 auto;
+    border: 1px solid var(--accent-font);
+    border-radius: 8px;
+    text-align: center;
+    font-size: var(--font-size-small);
+}
+
+nav {
+    display: flex;
+}
+
+nav ul li {
+    background-color: var(--card-colour);
+    color: var(--font-colour);
+    font-size: var(--font-size-xs);
+    transition: all 0.3s ease-in;
+}
+
+nav ul li:hover {
+    background-color: var(--noun);
+    color: var(--accent-font);
+}
+
+ul {
+    list-style: none inside;
+}
+
+li {
+    color: var(--accent-font);
+    max-width: 60%;
+    padding: var(--spacing-small);
+    margin: 0 auto;
+    border: 1px solid var(--accent-font);
+    border-radius: 8px;
+    text-align: center;
+    font-size: var(--font-size-small)
+}
+
+li a {
+    text-decoration: none;
+    background-color: inherit;
+}
+
+.n {
+    background-color: var(--noun);
+
+}
+
+.v {
+    background-color: var(--verb);
+}
+
+.adj {
+    background-color: var(--adjective);
+}
+
+.adv {
+    background-color: var(--adverb);
+}
+
+.gr {
+    background-color: var(--grammar);
+}
+
+.gr-explain {
+    margin: 0 auto;
+    background-color: var(--card-colour);
+    color: var(--font-colour);
+}
+
+.note {
+    background-color: inherit;
+}
+
+
+
+#why {
+    text-align: left;
+}
+
+#why p {
+    background-color: var(--primary-colour);
+    text-align: left;
+    margin: 0 auto;
+    padding: 0 auto;
+    max-width: 100%;
+}
+
+#audience {
+    text-align: right;
+}
+
+#audience p {
+    background-color: var(--primary-colour);
+    text-align: right;
+    margin: 0 auto;
+    padding: 0 auto;
+    max-width: 100%;
+}
+
+em {
+    font-family: Cambri0a;
+}
